@@ -1,0 +1,20 @@
+# npm
+node_modules/
+
+# Yarn
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# Generate output
+dist/
+
+# Jest
+coverage/
+
+# Backend
+public/*/*.*

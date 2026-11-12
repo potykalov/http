@@ -1,0 +1,23 @@
+{
+  "version": "1.0.0",
+  "description": "My webpack project",
+  "name": "webpack-project",
+  "type": "module",
+  "scripts": {
+    "prod": "webpack --config webpack.prod.js",
+    "start": "webpack-dev-server --config webpack.dev.js",
+    "watch": "webpack --watch"
+  },
+  "devDependencies": {
+    "@babel/core": "^8.1.2",
+    "@babel/preset-env": "^8.0.7",
+    "babel-loader": "^10.1.1",
+    "webpack": "^5.112.2",
+    "webpack-cli": "^7.3.1",
+    "webpack-dev-server": "^6.1.0",
+    "webpack-merge": "^6.0.1"
+  },
+  "dependencies": {
+    "core-js": "^3.51.0"
+  }
+}
