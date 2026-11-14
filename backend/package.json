@@ -13,9 +13,9 @@
   },
   "type": "module",
   "dependencies": {
-    "body-parser": "1.20.2",
+    "body-parser": "1.20.9",
     "cors": "2.8.5",
-    "express": "4.21.0",
+    "express": "4.22.3",
     "pino": "8.17.2",
     "pino-pretty": "10.3.1"
   }
